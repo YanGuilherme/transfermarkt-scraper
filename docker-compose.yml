@@ -1,0 +1,6 @@
+services:
+  transfermarkt-scraper:
+    build: .
+    volumes:
+      - .:/app
+    command: tfmkt confederations
